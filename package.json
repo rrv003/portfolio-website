@@ -1,0 +1,13 @@
+{
+  "name": "rahul-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Rahul Raj Verma",
+  "scripts": {
+    "install-deps": "cd frontend && yarn install && cd ../backend && pip install -r requirements.txt",
+    "build": "cd frontend && yarn build",
+    "start": "cd backend && python -m uvicorn server:app --host 0.0.0.0 --port $PORT",
+    "dev": "cd frontend && yarn start"
+  },
+  "keywords": ["portfolio", "react", "fastapi", "mongodb"],
+  "author": "Rahul Raj Verma"
+}
